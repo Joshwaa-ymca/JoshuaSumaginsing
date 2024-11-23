@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Enrollment Form</h1>
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+
+        <form action="#" method="POST">
+
+            <div class="input-box">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter full name" required>
+            </div>
+
+            
+            <div class="input-box">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter email address" required>
+            </div>
+
+            
+            <div class="input-box">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age" required>
+            </div>
+
+            
+            <div class="input-box">
+                <label>Select your sex:</label>
+                <div class="sex-options">
+                    <input type="radio" id="male" name="sex" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex" value="Female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            
+            <div class="input-box">
+                <label for="course">Course</label>
+                <select id="course" required>
+                    <option value="BSIT">BSIT</option>
+                    <option value="BSSW">BSSW</option>
+                    <option value="BSPA">BSPA</option>
+                    <option value="BSEE">BSEE</option>
+                </select>
+            </div>
+
+            <label>Interests:</label>
+            <div class="checkbox-container">
+                <label for="webDev">
+                    <input type="checkbox" id="webDev" name="interests" value="Web Development">
+                        Web Development
+            </label>
+            <label for="dataSci">
+                <input type="checkbox" id="dataSci" name="interests" value="Data Science">
+                        Data Science
+            </label>
+             <label for="networking">
+                   <input type="checkbox" id="networking" name="interests" value="Networking">
+                        Networking
+            </label>
+            <label for="graphicDesign">
+                <input type="checkbox" id="graphicDesign" name="interests" value="Graphic Design">
+                    Graphic Design
+            </label>
+        </div>
+
+            
+            <button type="submit">Enroll Now</button>
+        </form>
+        <div>
+            <h1>Students Data</h1>
+        </div>
+ 
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Course</th>
+                    <th>Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Ken Biler</td>
+                    <td>Biler@apple.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development, Data Science</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Kenneth Ramirez</td>
+                    <td>Ken@example.com</td>
+                    <td>22</td>
+                    <td>male</td>
+                    <td>BSSW</td>
+                    <td>Networking, Graphic Design</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rafael Caalam</td>
+                    <td>Rafael@yahoo.com</td>
+                    <td>27</td>
+                    <td>Female</td>
+                    <td>BSSW</td>
+                    <td>Networking, Graphic Design</td>
+                </tr>
+                 <tr>
+                    <td>4</td>
+                    <td>Kyle Delo Santos</td>
+                    <td>Kyle@gmail.com</td>
+                    <td>28</td>
+                    <td>Female</td>
+                    <td>BSSW</td>
+                    <td>Networking, Graphic Design</td>
+                 </tr>
+                 <tr>
+                    <td>5</td>
+                    <td>Gerald Prio</td>
+                    <td>Prio@example.com</td>
+                    <td>22</td>
+                    <td>Female</td>
+                    <td>BSIT</td>
+                    <td>Networking</td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

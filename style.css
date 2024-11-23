@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1e1e1e; /* Dark container background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+/* Input Fields */
+.input-box {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2a2a2a; /* Dark input fields */
+    color: #ffffff;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4caf50; /* Highlight border */
+}
+
+/* Button */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Radio Buttons */
+.sex-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333; /* Dark table borders */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #1e1e1e; /* Dark table cells */
+    color: #ffffff;
+}
+
+th {
+    background-color: #333; /* Slightly darker for headers */
+}

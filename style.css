@@ -2,15 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
+    background-color: #121212; 
+    color: #ffffff;
 }
 
 .container {
     max-width: 700px;
     margin: 30px auto;
     padding: 20px;
-    background: #1e1e1e; /* Dark container background */
+    background: #1e1e1e; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -45,13 +45,13 @@ input, select, button {
     margin-top: 5px;
     border: 1px solid #333;
     border-radius: 4px;
-    background-color: #2a2a2a; /* Dark input fields */
+    background-color: #2a2a2a;
     color: #ffffff;
 }
 
 input:focus, select:focus {
     outline: none;
-    border-color: #4caf50; /* Highlight border */
+    border-color: #4caf50;
 }
 
 button {
@@ -78,16 +78,16 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #333; /* Dark table borders */
+    border: 1px solid #333; 
 }
 
 th, td {
     padding: 10px;
     text-align: center;
-    background-color: #1e1e1e; /* Dark table cells */
+    background-color: #1e1e1e; 
     color: #ffffff;
 }
 
 th {
-    background-color: #333; /* Slightly darker for headers */
+    background-color: #333;
 }
